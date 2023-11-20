@@ -22,6 +22,24 @@ function mondayWork(activity = "go to the office"){
 }
 mondayWork(activity)
 
+//3
+// function called wrapAdjective
+//return function (inner function)
+//inner function: parameter default to "special"
+//return string
+//wrapped in visual flair
+//take a string as parameter that will create the visual flair
+//default value = *
+
+function wrapAdjective(flair = "*"){
+  return function innerFunction(adjective = "special"){
+    return `You are ${flair}${adjective}${flair}!`
+  }
+  innerFunction(adjective)
+}
+
+wrapAdjective(flair)
+
 
 
 
