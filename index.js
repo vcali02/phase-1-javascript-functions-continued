@@ -1,36 +1,87 @@
 // code your solution here
 
-function saturdayFun(activity = 'roller-skate') {
-    return (`This Saturday, I want to ${activity}!`)
+//1 
+//function called saturdayFun
+//return string
+//pass activity as parameter
+//default roller-skate
+
+function saturdayFun(activity = "roller-skate"){
+  return `This Saturday, I want to ${activity}!`
 }
-//WHY default? doesn't this make it fixed and unmalleable?
- console.log(saturdayFun("dog"));
+saturdayFun(activity)
 
-/*Implement a function called `saturdayFun`:
+//2
+//f expression called mondayWork
+//return a string
+//activity in parameter
+//default activity = go to the office
 
-- It should define a function.
-- It uses a default argument, `'roller-skate'` when no arguments are passed.
-  - It allows the default argument to be overridden.
-*/
-
-function mondayWork(work = `go to the office`) {
-    return (`This Monday, I will ${work}.`)
+function mondayWork(activity = "go to the office"){
+  return `This Monday, I will ${activity}.`
 }
-
-/* Implement a function called `mondayWork`:
-
-- It should define a function.
-- It uses a default argument, `'go to the office'` when no arguments are passed.
-  - It allows the default argument to be overridden. */
+mondayWork(activity)
 
 
 
-function wrapAdjective(visualFlare = `*`) {   /*Implement a function called `wrapAdjective` & parameter a `String` visual flair.*/
-    return function(param1 = `special`) {   /*return a function. "inner" function w. 1param that  default to `"special"`.*/
-        return (`You are ${visualFlare}${param1}${visualFlare}!`)
 
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function saturdayFun(activity = 'roller-skate') {
+//     return (`This Saturday, I want to ${activity}!`)
+// }
+// //WHY default? doesn't this make it fixed and unmalleable?
+//  console.log(saturdayFun("dog"));
+
+// /*Implement a function called `saturdayFun`:
+
+// - It should define a function.
+// - It uses a default argument, `'roller-skate'` when no arguments are passed.
+//   - It allows the default argument to be overridden.
+// */
+
+// function mondayWork(work = `go to the office`) {
+//     return (`This Monday, I will ${work}.`)
+// }
+
+// /* Implement a function called `mondayWork`:
+
+// - It should define a function.
+// - It uses a default argument, `'go to the office'` when no arguments are passed.
+//   - It allows the default argument to be overridden. */
+
+
+
+// function wrapAdjective(visualFlare = `*`) {   /*Implement a function called `wrapAdjective` & parameter a `String` visual flair.*/
+//     return function(param1 = `special`) {   /*return a function. "inner" function w. 1param that  default to `"special"`.*/
+//         return (`You are ${visualFlare}${param1}${visualFlare}!`)
+
+//     }
+// }
 //WHAT is a visual flare?!!!
 
 /*Implement a function called `wrapAdjective`:
